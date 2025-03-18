@@ -1,3 +1,4 @@
 # terminal-doggo
 
-Project still under construction, but the goal is to fetch a random dog from random dog api and push it to a terminal.
+this is a stub that looksup an API endpoint, fetches a jpg from a URL, converts it to ascii and prints it to the terminal. 
+
