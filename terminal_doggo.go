@@ -70,7 +70,7 @@ func getImageFromFilePath(filePath string) (image.Image, error) {
 }
 
 var (
-	doggoEndPoint = "https://random.dog/woof.json"
+	doggoEndPoint = "https://random.dog/woof.json?include=jpg"
 	filePath      = "current.jpg"
 )
 

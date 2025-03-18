@@ -39,13 +39,13 @@ func convertImage(inputFile string) {
 	defer file.Close()
 
 	// Decode the image
-	img, format, err := image.Decode(file)
+	img, _, err := image.Decode(file)
 	if err != nil {
 		fmt.Printf("Error decoding image: %v\n", err)
 		os.Exit(1)
 	}
 
-	fmt.Printf("Image format: %s\n", format)
+	// fmt.Printf("Image format: %s\n", format)
 
 	// Get original dimensions
 	bounds := img.Bounds()
